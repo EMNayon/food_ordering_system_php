@@ -111,5 +111,5 @@
 	
 </div>
 </body>
-<footer><center>&copy; 2022 All Rights Reserved By Ruhul</center></footer>
+<footer style="margin-bottom: 20px;"><center>&copy; 2022 All Rights Reserved By Ruhul</center></footer>
 </html>

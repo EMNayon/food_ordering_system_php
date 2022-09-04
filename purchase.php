@@ -4,20 +4,16 @@
 		$customer=$_POST['customer'];
 		// $price = $_POST['price'];
 		// echo $customer;
-		$sql = "INSERT INTO `purchase`(`customer`, `total`, `date_purchase`) VALUES ('$customer', '03-10-22')";
-		// echo $sql;
+		$sql = "INSERT INTO `purchase`(`customer`, `total`, `date_purchase`) VALUES ('$customer', 0, NOW())";
 		
+		// echo $sql;
 		// if($conn->errno){
 		// 	echo "Could not insert record into table";
 		// }
 		// $query1 = $conn->query($sql);
 		// mysqli_query($conn,$sql);
-		if(mysqli_query($conn,$sql)){
-			echo "New record creadted ";
-		}else {
-			echo "Error";
-		}
-		// $pid=$conn->insert_id;
+		mysqli_query($conn,$sql);
+		$pid=$conn->insert_id;
 
 		
 	

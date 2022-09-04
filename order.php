@@ -24,7 +24,7 @@
 							<td class="text-center"><input type="checkbox" value="<?php echo $row['productid']; ?>||<?php echo $iterate; ?>" name="productid[]" style=""></td>
 							<td><?php echo $row['catname']; ?></td>
 							<td><?php echo $row['productname']; ?></td>
-							<td name = "price" class="text-right">&#x20A8; <?php echo number_format($row['price'], 2); ?></td>
+							<td name = "price" class="text-right">BDT <?php echo number_format($row['price'], 2); ?></td>
 							<td><input type="text" class="form-control" name="quantity_<?php echo $iterate; ?>"></td>
 						</tr>
 						<?php
