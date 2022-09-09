@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <body>
-<?php include('navbar.php'); ?>
+<?php include('navbar-admin.php'); ?>
 <div class="container">
 	<h1 class="page-header text-center">CATEGORY LIST</h1>
 	<div class="row">

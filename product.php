@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <body>
-<?php include('navbar.php'); ?>
+<?php include('navbar-admin.php'); ?>
 <div class="container">
 	<h1 class="page-header text-center">PRODUCT'S LIST</h1>
 	<div class="row">
@@ -43,7 +43,7 @@
 						<tr>
 							<td><a href="<?php if(empty($row['photo'])){echo "upload/noimage.jpg";} else{echo $row['photo'];} ?>"><img src="<?php if(empty($row['photo'])){echo "upload/noimage.jpg";} else{echo $row['photo'];} ?>" height="30px" width="40px"></a></td>
 							<td><?php echo $row['productname']; ?></td>
-							<td>&#8369; <?php echo number_format($row['price'], 2); ?></td>
+							<td>BDT <?php echo number_format($row['price'], 2); ?></td>
 							<td>
 								<a href="#editproduct<?php echo $row['productid']; ?>" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> || <a href="#deleteproduct<?php echo $row['productid']; ?>" data-toggle="modal" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
 								<?php include('product_modal.php'); ?>

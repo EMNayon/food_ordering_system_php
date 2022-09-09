@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <body>
-<?php include('navbar.php'); ?>
+<?php include('navbar-admin.php'); ?>
 <div class="container">
 	<h1 class="page-header text-center">SALES</h1>
 	<table class="table table-striped table-bordered">
@@ -19,7 +19,7 @@
 					<tr>
 						<td><?php echo date('M d, Y h:i A', strtotime($row['date_purchase'])) ?></td>
 						<td><?php echo $row['customer']; ?></td>
-						<td class="text-right">&#8369; <?php echo number_format($row['total'], 2); ?></td>
+						<td class="text-right">BDT <?php echo number_format($row['total'], 2); ?></td>
 						<td><a href="#details<?php echo $row['purchaseid']; ?>" data-toggle="modal" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search"></span> View </a>
 							<?php include('sales_modal.php'); ?>
 						</td>

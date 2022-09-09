@@ -3,6 +3,23 @@
 <?php include('navbar.php'); ?>
 <div class="container">
 	<h1 class="page-header text-center">ORDER LIST</h1>
+	<div class="row">
+		<div class="col-md-12">
+			<select id="catList" class="btn btn-default">
+			<option value="0">All Category</option>
+			<?php
+				$sql="select * from category";
+				$catquery=$conn->query($sql);
+				while($catrow=$catquery->fetch_array()){
+					$catid = isset($_GET['category']) ? $_GET['category'] : 0;
+					$selected = ($catid == $catrow['categoryid']) ? " selected" : "";
+					echo "<option$selected value=".$catrow['categoryid'].">".$catrow['catname']."</option>";
+				}
+			?>
+			</select>
+			<a href="#addproduct" data-toggle="modal" class="pull-right btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Product</a>
+		</div>
+	</div>
 	<form method="POST" action="purchase.php">
 		<table class="table table-striped table-bordered">
 			<thead>
