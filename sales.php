@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('header.php');?>
 <body>
 <?php include('navbar-admin.php'); ?>
 <div class="container">

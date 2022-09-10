@@ -1,6 +1,12 @@
-<?php include('header.php'); ?>
+<?php include('header.php'); 
+?>
 <body>
-<?php include('navbar-admin.php'); ?>
+<?php include('navbar-admin.php');
+// if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] !== true){
+// 	header("location: admin.php");
+// 	exit;
+//   }
+?>
 <div class="container">
 	<h1 class="page-header text-center">PRODUCT'S LIST</h1>
 	<div class="row">

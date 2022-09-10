@@ -41,22 +41,6 @@
         </div>
 	</section>
 
-	<!-- <section id="demo">
-		<div class="card mb-3" style="max-width: 540px;">
-			<div class="row g-0">
-				<div class="col-md-4">
-					<img src="img/img-1.png" class="img-fluid rounded-start" alt="...">
-				</div>
-				<div class="col-md-8">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
 	<section id="menu">
 		<div class="container">
 			<h1 class="page-header text-center">MENU</h1>
@@ -338,39 +322,31 @@
 	</section>
 
 	<section id="footer">
-	<div class="container">
-		<div class="row">
-			<footer id="footer">
-				<div class="footer py-5">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<a class="footer-link" href="#">Register</a>
-								<a class="footer-link" href="#">Forum</a>
-								<a class="footer-link" href="#comment">Review</a>
-								<a class="footer-link" href="#faq">FAQ</a>
-							<!-- <div class="footer-social pt-4 px-3 text-center">
-								<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-								<a href="#"><i class="fa-brands fa-instagram"></i></a>
-								<a href="#"><i class="fas fa-youtube"></i></a>
-								<a href="#"><i class="fas fa-dribbble"></i></a>
-								<a href="#"><i class="fas fa-linkedin"></i></a>
-								<a href="#"><i class="fas fa-instagram"></i></a>
-							</div> -->
-						</div>
-						<div class="col-sm-12">
-							<div class="footer-copy">
-								<div class="copy-right text-center pt-5">
-									<p class="text-light">&copy; 2022. Foodies. All rights reserved.</p>
-								</div>
+		<div class="container">
+			<div class="row">
+				<footer id="footer">
+					<div class="footer py-5">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<a class="footer-link" href="#about">About</a>
+									<a class="footer-link" href="#menu">Menu</a>
+									<a class="footer-link" href="#comment">Review</a>
+									<a class="footer-link" href="#faq">FAQ</a>
+							</div>
+							<div class="col-sm-12">
+								<div class="footer-copy">
+									<div class="copy-right text-center pt-5">
+										<p class="text-light">&copy; 2022. Foodies. All rights reserved.</p>
+									</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 		</div>
-	</div>
 	</section>
 
 
